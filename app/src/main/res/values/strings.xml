@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Rocket</string>
+    <string name="search_stocks_input_hint">Search</string>
+    <string name="empty_list">The list is empty.</string>
+    <string name="active_rocket">Active Rocket</string>
+    <string name="name">Name</string>
+    <string name="country">Country</string>
+    <string name="height">Height</string>
+    <string name="mass">Mass</string>
+    <string name="success">Success</string>
+    <string name="fail">Fail</string>
+    <string name="status">Status</string>
+    <string name="rocketName">Rocket name</string>
+    <string name="date">Date</string>
+    <string name="welcome">Welcome</string>
+    <string name="discard">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="be_rocket">Let\'s fly 3,2,1...</string>
+    <string name="noData">No data</string>
+    <string name="cancel">Cancel</string>
+
+</resources>

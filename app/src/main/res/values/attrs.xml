@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SearchView">
+        <attr name="svRequestFocus" format="boolean" />
+        <attr name="android:hint" />
+    </declare-styleable>
+
+    <declare-styleable name="OnboardingButton">
+        <attr name="android:background" />
+        <attr name="onbIcon" format="reference" />
+        <attr name="onbIconTint" format="reference" />
+        <attr name="onbTitle" format="string" localization="suggested" />
+        <attr name="onbText" format="string" localization="suggested" />
+        <attr name="onbTitleChecked" format="string" localization="suggested" />
+        <attr name="onbTextChecked" format="string" localization="suggested" />
+    </declare-styleable>
+
+    <declare-styleable name="StockHoldingView">
+        <attr name="shTitle" format="string" localization="suggested" />
+        <attr name="shValue" format="string" localization="suggested" />
+    </declare-styleable>
+
+    <declare-styleable name="PercentLabel">
+        <attr name="android:background" />
+        <attr name="android:drawableLeft" />
+        <attr name="android:paddingStart" />
+        <attr name="android:paddingTop" />
+        <attr name="android:paddingEnd" />
+        <attr name="android:paddingBottom" />
+        <attr name="android:drawablePadding" />
+    </declare-styleable>
+
+</resources>
