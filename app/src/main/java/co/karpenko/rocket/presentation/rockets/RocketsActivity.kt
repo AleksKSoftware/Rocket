@@ -44,11 +44,11 @@ class RocketsActivity : AppCompatActivity() {
         listView.adapter = rocketListAdapter
 
         checkBox.setOnClickListener {
-            viewModel.search(searchView.searchText, checkBox.isChecked)
+            viewModel.filterActive(checkBox.isChecked)
         }
         searchView.addListener(
             lifecycle = lifecycle,
-            onQuery = { viewModel.search(it, checkBox.isChecked) },
+            onQuery = { viewModel.search(it) },
             onCancel = { viewModel.onSearchClear() }
         )
     }

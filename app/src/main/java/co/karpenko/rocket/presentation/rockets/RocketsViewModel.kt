@@ -63,11 +63,21 @@ class RocketsViewModel @Inject constructor(
         super.onCleared()
     }
 
-    fun search(query: String, checked: Boolean) {
+    fun search(query: String) {
         searchScope.cancelChildren()
-        if (query.isNotEmpty() || checked) {
+        if (query.isNotEmpty()) {
             searchScope.launch {
-                list.filter { it.name?.contains(query) == true && it.activeRocket == checked }.let {
+                list.filter { it.name?.contains(query, ignoreCase = true) == true }.let {
+                    event.value = Event.RocketList(it)
+                }
+            }
+        }
+    }
+
+    fun filterActive(checked: Boolean) {
+        if (checked) {
+            searchScope.launch {
+                list.filter { it.activeRocket == checked }.let {
                     event.value = Event.RocketList(it)
                 }
             }
@@ -75,7 +85,6 @@ class RocketsViewModel @Inject constructor(
             event.value = Event.RocketList(list)
 
         }
-
     }
 
     fun onSearchClear() {
