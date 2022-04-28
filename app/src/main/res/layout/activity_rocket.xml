@@ -20,15 +20,21 @@
         app:layout_constraintTop_toTopOf="parent"
         app:svRequestFocus="false" />
 
-    <CheckBox
+    <androidx.appcompat.widget.AppCompatCheckBox
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/white"
+        android:buttonTint="@color/white"
+        android:shadowColor="@color/white"
+        android:textColorHint="@color/white"
+        android:backgroundTintMode="add"
         android:minHeight="48dp"
         android:text="@string/active_rocket"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/listView"
         app:layout_constraintEnd_toEndOf="@+id/searchView"
         app:layout_constraintHorizontal_bias="0.0"

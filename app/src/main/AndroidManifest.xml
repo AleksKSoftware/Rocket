@@ -14,7 +14,7 @@
         android:theme="@style/Theme.Rocket">
         <activity
             android:name=".presentation.rocket_details.RocketDetailsActivity"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:exported="false" />
         <activity
             android:name=".presentation.rockets.RocketsActivity"
