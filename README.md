@@ -1,7 +1,6 @@
 # Rocket
 Test project
 
-![image](https://user-images.githubusercontent.com/81957232/165771760-9652feaa-b5fd-4578-81da-21caf5a839c7.png)
+![Screenshot_20220428_161137](https://user-images.githubusercontent.com/81957232/165772103-e7e8ce59-4167-441e-a9bf-a4f688afc620.png)
 
-![image](https://user-images.githubusercontent.com/81957232/165771831-3cf6ea56-dac9-4c25-bb97-f82fe375de35.png)
-
+![Screenshot_20220428_161137](https://user-images.githubusercontent.com/81957232/165772144-a8bf2a3e-01c9-419e-83c0-efce50ea5069.png)
